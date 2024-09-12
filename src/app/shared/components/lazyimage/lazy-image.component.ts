@@ -15,10 +15,11 @@ export class LazyImageComponent implements OnInit {
     if (!this.url) throw new Error('URL property is required');
   }
 
- public hasLoader: boolean = false;
+  public hasLoader: boolean = false;
 
   onLoad() {
-    console.log('image loader');
-    this.hasLoader = true;
+    // setTimeout(() => {
+      this.hasLoader = true;
+    // }, 1000);
   }
 }
