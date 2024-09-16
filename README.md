@@ -1,4 +1,6 @@
 # Gifs APP
+Primera aplicación real de Angular, este es un breve listado de los temas fundamentales:
+# Temas
 1. Modularización de la aplicación
 2. Estructura de la aplicación de media a gran escala
 3. Componentes
